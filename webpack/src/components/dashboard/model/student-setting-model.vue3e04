@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-dialog',{directives:[{name:"dialogDrag",rawName:"v-dialogDrag"}],attrs:{"title":"设置","visible":_vm.dialog,"close-on-click-modal":false,"append-to-body":"","width":"500px"},on:{"update:visible":function($event){_vm.dialog=$event}}},[_c('el-form',{ref:"form",attrs:{"model":_vm.form,"label-width":"80px"}},[_c('el-form-item',{attrs:{"label":"学年："}},[_c('el-select',{staticStyle:{"width":"90%"},model:{value:(_vm.form.year),callback:function ($$v) {_vm.$set(_vm.form, "year", $$v)},expression:"form.year"}},_vm._l((_vm.yearArr),function(item){return _c('el-option',{key:item.value,attrs:{"label":item.label,"value":item.value}})}),1)],1),_vm._v(" "),_c('el-form-item',{attrs:{"label":"学期："}},[_c('el-select',{staticStyle:{"width":"90%"},model:{value:(_vm.form.term),callback:function ($$v) {_vm.$set(_vm.form, "term", $$v)},expression:"form.term"}},_vm._l((_vm.termArr),function(item){return _c('el-option',{key:item.value,attrs:{"label":item.label,"value":item.value}})}),1)],1)],1),_vm._v(" "),_c('div',{attrs:{"slot":"footer"},slot:"footer"},[_c('el-button',{attrs:{"type":"primary","size":"small"},on:{"click":_vm.click}},[_vm._v("确定")]),_vm._v(" "),_c('el-button',{attrs:{"size":"small"},on:{"click":_vm.cancel}},[_vm._v("取消")])],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-1ae57b59","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/dashboard/model/student-setting-model.vue
+// module id = null
+// module chunks = 
